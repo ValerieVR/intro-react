@@ -1,12 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
-const ToDoList = () => {
-    const initialTodos = [
-        {id: 1, name: "Learn HTML", complete: false},
-        {id: 2, name: "Learn CSS", complete: true},
-        {id: 3, name: "Learn JavaScript", complete: false}
-    ];
-    const [todos, setTodos] = useState(initialTodos);
+const ToDoList = ({todos}) => {
     return (
         <div className="todolist">
             <h3>Todos</h3>
