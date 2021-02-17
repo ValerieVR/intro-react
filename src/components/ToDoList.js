@@ -4,9 +4,17 @@ const ToDoList = () => {
     return (
         <div className="todolist">
             <h3>Todos</h3>
-            <input type="checkbox"/>Learn HTML<br></br>
-            <input type="checkbox"/>Learn CSS<br></br>
-            <input type="checkbox"/>Learn JavaScript
+            <ul>
+                <li>
+                    <input type="checkbox"/>Learn HTML<br></br>
+                </li>
+                <li>
+                    <input type="checkbox"/>Learn CSS<br></br>
+                </li>
+                <li>
+                    <input type="checkbox"/>Learn JavaScript
+                </li>
+            </ul>
         </div>
     );
 }
