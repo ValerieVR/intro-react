@@ -4,7 +4,7 @@ import './App.css';
 //components
 import Header from './components/Header';
 import Form from './components/Form';
-import ToDoList from './components/ToDoList';
+import TodoList from './components/TodoList';
 
 function App() {
   const initialTodos = [
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Header/>
       <Form/>
-      <ToDoList todos={todos}/>
+      <TodoList todos={todos}/>
     </div>
   );
 }
