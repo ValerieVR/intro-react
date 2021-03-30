@@ -36,7 +36,7 @@ function App() {
   }
 
   // Update the state
-  const clickHandler = (e) => {
+  const clickHandler = () => {
     const name = inputRef.current.value;
     if (name === "") return;
     setTodos(prevTodos => {
